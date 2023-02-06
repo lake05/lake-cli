@@ -1,0 +1,21 @@
+{
+  "name": "@lake-cli/core",
+  "version": "1.0.0",
+  "description": "lake-cli core",
+  "main": "",
+  "bin": {
+    "lake": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lake-cli/log": "workspace:*",
+    "colors": "^1.4.0",
+    "import-local": "^3.1.0",
+    "semver": "^7.3.8"
+  }
+}
